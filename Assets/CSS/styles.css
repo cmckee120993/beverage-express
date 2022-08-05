@@ -1,0 +1,41 @@
+* {
+    outline: dotted red 1px;
+}
+
+/* Header and hero of the website */
+header {
+	background-image: url("../Images/beer-hero.jpg"); 
+	background-size: cover;
+	display: flex;
+}
+
+header img {
+    height: 50%;
+    width: 50%;
+    display: flex;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+	background-color: #0035FF;
+}
+
+.hero h2 {
+    flex-wrap: wrap;
+	display: flex;
+    color: #FFE303;
+    font-family: "lucida handwriting", "lucida console", sans-serif; 
+    font-size: 50px;
+    margin: auto
+}
+
+
+@media screen and (max-width: 600px) {
+    header h2 {
+        font-size: 25px;
+    }
+}
