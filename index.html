@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/CSS/reset.css"/>
     <link rel="stylesheet" href="./Assets/CSS/styles.css"/>
+    <link rel="icon" type="image/x-icon" href="./Assets/Images/Full Six Pack.png">
 </head>
 
 <body>
@@ -25,10 +26,11 @@
 
     <div class="navbar-collapse navbar-div">
         <nav class="sidenav">
-            <a href="#growlers-link">Growlers, Crowlers, and Slushies</a>
+            <a href="#growlers-link">Growlers and Crowlers</a>
+            <a href="#slushies-link">Slushies</a>
             <a href="#socials-link">Social Media</a>
-            <a href="#contact-link">Contact</a>
-            <a href="#hours-link">Store Hours</a>
+            <a href="#store-info">Contact</a>
+            <a href="#store-info">Store Hours</a>
         </nav>
     </div>
 </div>
@@ -42,7 +44,7 @@
 
 <br>
 
-<div class="jumbotron growlers-link">
+<div class="jumbotron" id="growlers-link">
         <h2>What's on tap?</h2>
         <h2>Growler and Crowler Menu</h2>
 </div>
@@ -102,7 +104,7 @@
     </div>
 </div>
 
-<div class="row slushie-div">
+<div class="row" id="slushies-link">
     <div class="col-6 ">
         <h2>Adult Slushies</h2>
     </div>
@@ -110,11 +112,78 @@
     <div class="col-6">
         <img src="./Assets/Images/slushie.avif"/>
     </div>
-
 </div>
 
+<div class="row justify-content-center" id="tap-board">
 
-<div class="row">
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/mxd-strawberry.png" alt="MXD STrawberry Daquiri"/>
+        <h3>Strawberry Daquiri</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/joose-blue-lemonade.jpg" alt="United Brands Company Joose Blue Lemonade"/>
+        <h3>J-Series Blue Lemonade</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/mxd-margarita.jfif" alt="MXD Margarita"/>
+        <h3>Margarita</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/jack-daniels-peach.webp" alt="Jack Daniel's Souther Peach Country Cocktail"/>
+        <h3>Southern Peach Country Cocktail</h3>
+    </div>
+</div>
+
+<div class="row justify-content-center" id="tap-board">
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/seagrams-escapes-jamaicanmehappy.webp" alt="Seagram's Escapes Jamaican Me Happy"/>
+        <h3>Seagram's Escape Jamaican Me Happy</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/mxd-mai-tai.webp" alt="MXD Mai Tai"/>
+        <h3>Mai Tai</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/neon-burst-grape.webp" alt="Neon Burst Grape Blowout"/>
+        <h3>Neon Burst Grape Blowout</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/bud-light-mango.webp" alt="Bud Light Mang-O-Rita"/>
+        <h3>Bud Light Lime Mang-O-rita</h3>
+    </div>
+</div>
+
+<div class="row justify-content-center" id="tap-board">
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/mxd-long-island.jpg" alt="MXD Long Island Iced Tea"/>
+        <h3>Long Island Ice Tea</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/Four-Loko-USA.png" alt="Drink Four Brewing Loko USA"/>
+        <h3>Loko USA</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/j-series-blackberry.jpg" alt="United Brands Company Joose Blackberry"/>
+        <h3>J-Series Blackberry</h3>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-4" id="slushy-card">
+        <img src="./Assets/Images/springgate-logo.png" alt="SpringGate Winery Logo"/>
+        <h3>Niagara Blush</h3>
+    </div>
+</div>
+
+<div class="row" id="socials-link">
 
     <div class="col-12">
         <h2 id="socials-title">Connect with Us!</h2>
@@ -122,7 +191,7 @@
 
 </div>
 
-<div class="row" id="socials-link">
+<div class="row" id="socials-div">
     <div class="col-lg-4 col-md-4 col-sm-6 social-media-links" >
        <a href="https://www.facebook.com/wholelottabeer" target="_blank">
             <img src="./Assets/Images/Facebook_logo.png"/>
@@ -157,8 +226,8 @@
         <h2>Contact Us</h2>
             <ul>
                 <li>Address: 1021 Ritner Highway Carlisle, PA 17013</li>
-                <li>Phone: 717-241-2337</li>
-                <li>Email: bevexpress1021@gmail.com</li>
+                <li><a href="tel:7172412337">Phone: 717-241-2337</a></li>
+                <li><a href="mailto: bevexpress1021@gmail.com">Email: bevexpress1021@gmail.com</a></li>
             </ul>
     </div>
 

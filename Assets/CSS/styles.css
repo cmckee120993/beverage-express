@@ -73,14 +73,14 @@ header img {
     background-color: transparent;
 }
 
-.growlers-link {
+#growlers-link {
     background-image: url(../Images/taps.avif);
     background-size: 100% 300px;
     height: 250px;
     width: 100%;
 }
 
-.growlers-link h2, .slushie-div h2, #socials-title, #store-info h2 {
+#growlers-link h2, #slushies-link h2, #socials-title, #store-info h2 {
     color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
@@ -108,16 +108,33 @@ header img {
    justify-content: center;
 }
 
-#growler-card img {
+#slushy-card {
+    text-align: center;
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+   background-color: transparent;
+   display: inline-block;
+   float: none;
+   border: solid 2px white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#growler-card img, #slushy-card img {
     height: 40%;
     width: 75%;
     background-color: white;
     margin-top: 10px;
 }
 
-#growler-card h3 {
+#growler-card h3, #slushy-card h3 {
     font-size: 23px;
     margin-top: 20px;
+    background-color: transparent;
+    font-family: 'Dosis', sans-serif;
+    color: white;
 }
 #growler-card p, #store-info ul, #store-info li {
     font-size: 20px;
@@ -125,7 +142,7 @@ header img {
     background-color: transparent;
 }
 
-#growler-card h3, p, ul {
+p, ul {
     background-color: transparent;
     font-family: 'Dosis', sans-serif;
     color: white;
@@ -135,13 +152,13 @@ header img {
     text-align: justify;
 }
 
-.slushie-div {
+#slushies-link {
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
-.slushie-div img {
+#slushies-link img {
     height: 400px;
     width: 100%;
 }
@@ -150,14 +167,14 @@ align-items: center;
     margin: 10px;
 }
 
-#socials-link {
+#socials-div {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
 
  }   
 
-#socials-link img {
+.social-media-links img {
     height: 200px;
     width: 200px;
     margin-top: 10px;
@@ -178,3 +195,6 @@ footer img {
     background-color: transparent;
 }
 
+#store-info a {
+    color: white;
+}
